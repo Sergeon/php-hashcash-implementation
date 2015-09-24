@@ -137,8 +137,6 @@
         /**
         *Encrypts a puzzle with our secret key, digitally signing it. So we can be sure
         *no one sends a pre-computed solution when submits a solve.
-
-        *esto no se va a usar porque vamos a guardar los hashes en frio.
         */
         private function sign_package(){
 
