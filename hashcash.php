@@ -31,7 +31,7 @@
         *
         *We must store the puzzles we send to prevent clients for reuse solutions. The puzzles we
         *send with the target are digitally signed, so we do not need to track the target for our puzzles,
-        *while assuring the target can be tampered.
+        *while assuring the target can't be tampered.
         *
         *This class uses the Hashcash_Validator and the Hashcash_Arbiter classes below to perform some actions.
         *
