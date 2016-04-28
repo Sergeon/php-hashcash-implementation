@@ -315,7 +315,7 @@
     /**
     *Determines the difficulty of each puzzle, based on system load.
     *Keep in mind this is an example about how hashcash works, and
-    *php ssy_getloadavg() could not be a good method to get the server
+    *php sys_getloadavg() could not be a good method to get the server
     *load.
     */
     class Puzzle_Arbiter{
