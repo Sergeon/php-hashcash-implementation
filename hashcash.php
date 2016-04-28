@@ -75,7 +75,7 @@
 
         /**
         *
-        *ssl secret key used to digitally firm the data that is sended to the client.
+        *ssl secret key used to digitally sign the data that is sended to the client.
         *This prevents clients to reuse hashes or tamper the target.
         *@string
         */
