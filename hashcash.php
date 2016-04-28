@@ -361,6 +361,7 @@
             if($this->cpu_load > 0.4)
                 return 2;
 
+            return 2;        
 
         }
 
