@@ -190,7 +190,7 @@
             if($valid)
                 $this->perform_action($client_data['action_data']);
 
-            return $valid();
+            return $valid;
         }
 
         /**
