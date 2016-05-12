@@ -38,7 +38,7 @@
         *Keep in mind this class is just and example, and the current implementation of Hashcash_Arbiter
         *to calculate the proper target is almost basically senseless. Also, this algorithm
         *depends on a database keeping the solved puzzles we send, which of course depends heavily
-        *on db access and schema implementation. In this code, we used a Fuelphp ORM like syntax for that, but of course
+        *on db access and schema implementation. In this code, we used a Eloquent ORM like syntax for that, but of course
         *you should code your own way to store the puzzles and retrive them from a database.
         */
         class Hashcash_Puzzler {
@@ -50,7 +50,7 @@
         private $arbiter;
 
         /**
-        *a string wich client must incrementate with a nonce to match with the target
+        *a string which client must incrementate with a nonce to match with the target
         *@string
         */
         private $puzzle;
