@@ -14,7 +14,7 @@ https://en.wikipedia.org/wiki/Proof-of-work_system
 
 
 This is just an example about how a hashcash could be implemented in a php server, 
-see the hashcahs.php docs for more detail.
+see the `hashcash.php` docs for more detail.
 
 Usage:
 ```php
